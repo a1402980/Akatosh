@@ -1,0 +1,40 @@
+.container {
+  margin-bottom: 1.5rem;
+}
+
+.summaryCard {
+  background-color: var(--card);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.statLabel {
+  font-size: 0.875rem;
+  color: var(--card-foreground);
+}
+
+.statValue {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary);
+}
+
